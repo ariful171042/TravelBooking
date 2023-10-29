@@ -3,14 +3,16 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  color: #263238 !important;
 }
 
 :root {
   --primary-color: #dcb57e;
+  --primary-colors: rgb(4, 129, 129);
 }
 
 /* Global style for h tag start */
-h2,
+/* h2,
 h3,
 h4,
 h5,
@@ -19,16 +21,15 @@ h6 {
   font-weight: 400 !important;
   font-family: "Playfair Display", sans-serif;
   line-height: 1.2;
-  /* font-weight: bold; */
-}
+} */
 /* Global style for h tag end */
 
 /* Global style for p tag start */
-p {
+/* p {
   color: #ffffff;
   font-size: 15px;
   margin-bottom: 20px;
-}
+} */
 /* Global style for p tag end */
 
 /* Global button style start*/
@@ -46,6 +47,14 @@ p {
   background-color: #dcb57e;
   color: #fff;
   border: 3px solid #dcb57e;
+}
+
+.bg-primary-color {
+  background-color: var(--primary-colors);
+}
+
+.primary-color {
+  color: var(--primary-colors);
 }
 /* Global button style ends */
 
@@ -84,6 +93,19 @@ p {
   color: black;
   font-size: 30px;
 }
+.dropdown-menu {
+  background-color: black;
+}
+.dropdown-item {
+  color: white;
+  background-color: black;
+}
+
+.dropdown-item:hover {
+  color: #1e2125 !important;
+  background-color: #e9ecef;
+}
+
 .hero-section {
   height: 70vh;
   min-height: 100px;
@@ -235,3 +257,58 @@ p {
 }
 
 /* footer section css end */
+
+/* tabs start */
+#exTab2 h3 {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+.category {
+  top: -15px;
+  z-index: 1;
+}
+
+.card-pragraph {
+  font-size: 12px !important;
+  font-weight: 400;
+}
+
+.card-heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.card-slider {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: teal;
+}
+.nav-tabs .nav-link {
+  color: teal;
+}
+
+/* tabs end */
+
+/* Single Booking page satrt  */
+.icon-hover:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+  color: #3b71ca !important;
+}
+
+.icon-hover:hover i {
+  color: #3b71ca !important;
+}
+/* Single Booking page end */

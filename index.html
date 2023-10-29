@@ -71,9 +71,11 @@
                     >
                       Experience
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-right">
+                    <ul
+                      class="dropdown-menu dropdown-menu-right bg-dark text-white"
+                    >
                       <li>
-                        <a class="dropdown-item" href="#">Diving</a>
+                        <a class="dropdown-item text-white" href="#">Diving</a>
                       </li>
                       <li>
                         <a class="dropdown-item" href="#">Tours</a>
@@ -249,14 +251,14 @@
     <!-- Booking section end-->
 
     <!-- slider section start  -->
-    <section class="slider-section">
+    <section class="slider-section position-relative">
       <div
         class="container h-100 d-flex flex-column align-items-center justify-content-center"
       >
         <div
           id="carouselExampleControls"
           class="carousel slide"
-          data-bs-ride="carousel"
+          data-bs-ride="carousel position-relative"
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -312,32 +314,32 @@
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev text-dark"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span
-              class="carousel-control-prev-icon bg-dark rounded-circle"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span
-              class="carousel-control-next-icon bg-dark rounded-circle"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
+      <button
+        class="carousel-control-prev text-dark position-absolute start-0 top-50"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon bg-dark rounded-circle"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon bg-dark rounded-circle"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </section>
     <!-- slider section end  -->
 
@@ -430,8 +432,9 @@
           </div>
           <div class="col-md">
             <div class="div d-flex justify-content-end">
-              <p class="me-3">Privacy Policy</p>
-              <p>Term of use</p>
+              <a href="#" class="text-decoration-none text-white"
+                ><span>Privacy Policy |</span><span> Term of use</span></a
+              >
             </div>
           </div>
         </div>
