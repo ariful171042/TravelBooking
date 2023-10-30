@@ -22,8 +22,25 @@
   <body>
     <!-- Header start -->
     <section class="hero-section">
-      <header class="">
-        <div
+      <div class="hero w-100 h-100 position-relative">
+        <!-- <video autoplay muted loop id="myVideo" class="w-100 h-100">
+          <source
+            src="./assets/img/WhatsApp Video 2023-10-30 at 6.16.04 PM.mp4"
+            type="video/mp4"
+          />
+        </video> -->
+
+        <iframe
+          class="w-100 h-100"
+          class="bg-video"
+          src="https://www.youtube.com/embed/A5_sHkzSqho?autoplay=1&mute=1&controls=0&loop=1"
+          frameborder="0"
+          allowfullscreen
+          allow="autoplay"
+        ></iframe>
+      </div>
+      <header class="header position-absolute top-0 start-0 w-100">
+        <!-- <div
           class="top container d-flex justify-content-between text-white pt-3 fs-6"
         >
           <a href="#" class="text-decoration-none text-white"
@@ -34,7 +51,7 @@
             <span>RU</span>
             <span>IT</span>
           </div>
-        </div>
+        </div> -->
         <div class="bottom">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
@@ -102,24 +119,12 @@
           </nav>
         </div>
       </header>
-
-      <div
-        class="hero-detals w-100 h-75 d-flex flex-column justify-content-center align-items-center text-white"
-      >
-        <h1 class="heading h-50">Welcome</h1>
-
-        <div class="d-flex flex-column justify-content-end">
-          <a href="#" class="text-decoration-none primary-button"
-            >Select Your Room</a
-          >
-        </div>
-      </div>
     </section>
 
     <!-- Header end -->
 
     <!-- service section start-->
-    <section id="service">
+    <section id="service" class="bg-white">
       <div class="container p-5">
         <div class="row g-4">
           <div class="col-md p-4">
@@ -203,15 +208,15 @@
 
     <!-- get start section start -->
     <section
-      class="get-start-section bg-dark d-flex justify-content-center align-items-center"
+      class="get-start-section bg-white d-flex justify-content-center align-items-center"
     >
       <div
-        class="bg-dark container h-75 d-flex flex-column justify-content-center align-items-center"
+        class="bg-white container h-75 d-flex flex-column justify-content-center align-items-center"
       >
-        <h3 class="text-white text-center">
+        <h3 class="primary-color text-center">
           Do you like what you see? Are you ready to stand out?
         </h3>
-        <div class="">
+        <div class="pt-3">
           <a href="#" class="text-decoration-none primary-button"
             >Select Your Room</a
           >
@@ -225,7 +230,7 @@
       <div class="container p-5">
         <div class="row align-items-center justify-content-between">
           <div class="col-md-6">
-            <h1>
+            <h1 class="text-white">
               Book Your Travel - <br />
               the most trusted <br />
               WordPress booking <br />
@@ -237,7 +242,7 @@
               Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
               eleifend tellus.
             </p>
-            <a href="#" class="primary-button text-decoration-none"
+            <a href="#" class="secondary-button text-decoration-none"
               >GET YOUR LICENSE</a
             >
           </div>
