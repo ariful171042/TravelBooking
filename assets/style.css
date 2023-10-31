@@ -3,11 +3,11 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #263238 !important;
+  color: white !important;
 }
 
 :root {
-  --primary-color: rgb(11, 139, 139);
+  --primary-color: #dcb57e;
   --primary-colors: rgb(4, 129, 129);
 }
 
@@ -63,8 +63,16 @@ h6 {
   background-color: var(--primary-colors);
 }
 
+.bg-secondary-color {
+  background-color: #263238 !important;
+}
+
 .primary-color {
   color: var(--primary-colors);
+}
+
+.secondary-color {
+  color: #dcb57e !important;
 }
 /* Global button style ends */
 
@@ -96,7 +104,7 @@ h6 {
 /* booking section css end */
 
 .header {
-  background-color: rgba(0, 128, 128, 0.205);
+  background-color: #26323825;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -175,7 +183,8 @@ h6 {
 
 /* get-start-section start */
 .get-start-section h3 {
-  color: var(--primary-colors) !important;
+  padding: 10px 0;
+  color: #dcb57e !important;
   font-style: italic;
   font-weight: 400;
   font-size: 50px;
@@ -239,7 +248,7 @@ h6 {
 /* booking section1 css end */
 /* booking section2 css start */
 #booking2 {
-  background-color: var(--primary-color);
+  background-color: #263238;
 }
 #booking2 h1 {
   font-size: 60px;
